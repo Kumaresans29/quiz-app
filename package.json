@@ -1,17 +1,13 @@
 {
   "homepage": "https://Kumaresans29.github.io/quiz-app",
-  "name": "qiuz-app",
+  "name": "quiz-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
